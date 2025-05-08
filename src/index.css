@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-plumbs-gradient {
+    background: linear-gradient(to top, rgba(5, 23, 47, 0.33), rgba(5, 144, 213, 0.99));
+  }
+
+.bg-linkedin-blue {
+    background-color: #0077B5;
+}
